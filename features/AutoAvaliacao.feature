@@ -58,4 +58,4 @@ Feature Autoavaliação
         When The professor selects the menu “discrepancies”
         Then He sees “number of students with discrepancies: 1” 
         And He sees “percentage of students with discrepancies: 34%”
-        And He sees “list of students with discrepancies: Carlão”
+        And He sees a list of students with discrepancies containing "Carlão" in red
