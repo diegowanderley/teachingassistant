@@ -59,3 +59,5 @@ Feature Autoavaliação
         Then He sees “number of students with discrepancies: 1” 
         And He sees “percentage of students with discrepancies: 34%”
         And He sees a list of students with discrepancies containing "Carlão" in red
+
+//comentario acerca das vontades do cliente
