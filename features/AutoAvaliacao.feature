@@ -34,7 +34,7 @@ Feature Autoavaliação
         I want to Assign concepts (MA, MPA, e MANA) to the metas of my students, and for them to auto evaluate themselves
         So that I can check for harmful discrepancies in their self evaluations
 
-    Scenario Visualizing dicrepanties
+    Scenario Visualizing dicrepancies
         Given The professor is at the page “unidade”
         And The Student “Carlão” was given “MPA”, “MPA”, “MPA”, “MPA”, “MPA” by the professor
         And The Student “Carlão” was given “MA”, “MPA”, “MANA”, “MANA”, “MPA” by himself
@@ -47,7 +47,7 @@ Feature Autoavaliação
         And He sees “percentage of students with discrepancies: 0%”
         And He sees “list of students with discrepancies: “” ”
 
-    Scenario Visualizing dicrepanties
+    Scenario Visualizing dicrepancies
         Given The professor is at the page “unidade”
         And The Student “Carlão” was given “MPA”, “MPA”, “MPA”, “MPA”, “MPA” by the professor
         And The Student “Carlão” was given “MA”, “MA”, “MA”, “MA”, “MA” by himself
@@ -61,3 +61,5 @@ Feature Autoavaliação
         And He sees a list of students with discrepancies containing "Carlão" in red
 
 //comentario acerca das vontades do cliente
+
+// Olá, eu sou o Soberano Xablau, o Conquistador de Planetas!
