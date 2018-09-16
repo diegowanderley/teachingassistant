@@ -27,3 +27,4 @@ Feature Autoavaliação
         When I assign “meta 1” as “MANA”
         And select “enviar”
         Then I can see an error message
+        And I am redirected to the front page
